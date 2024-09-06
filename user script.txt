@@ -1,0 +1,49 @@
+#!/bin/bash
+echo -e "##############################ADD GROUOP##############################"
+echo
+groupadd -g 2300 23b
+echo
+echo -e "#############################ADD USER########################"
+echo
+useradd -u 2301 -g 2300 -d /home/bobby -s /bin/bash -c "student" bobby;echo "bobby"|passwd --stdin bobby
+useradd -u 2302 -g 2300 -d /home/rama -s /bin/bash -c "student" rama;echo "rama"|passwd --stdin rama
+useradd -u 2303 -g 2300 -d /home/nagu -s /bin/bash -c "student" nagu;echo "nagu"|passwd --stdin nagu
+useradd -u 2304 -g 2300 -d /home/arun -s /bin/bash -c "student" arun;echo "arun"|passwd --stdin arun
+useradd -u 2305 -g 2300 -d /home/samba -s /bin/bash -c "student" samba;echo "samba"|passwd --stdin samba
+useradd -u 2306 -g 2300 -d /home/hanu -s /bin/bash -c "student" hanu;echo "hanu"|passwd --stdin hanu
+useradd -u 2307 -g 2300 -d /home/dinu -s /bin/bash -c "student" dinu;echo "dinu"|passwd --stdin dinu
+useradd -u 2308 -g 2300 -d /home/navi -s /bin/bash -c "student" navi;echo "navi"|passwd --stdin navi
+useradd -u 2309 -g 2300 -d /home/venkat -s /bin/bash -c "student" venkat;echo "venkat"|passwd --stdin venkat
+useradd -u 2310 -g 2300 -d /home/balu -s /bin/bash -c "student" balu;echo "balu"|passwd --stdin balu
+useradd -u 2311 -g 2300 -d /home/sai -s /bin/bash -c "student" sai;echo "sai"|passwd --stdin sai
+useradd -u 2312 -g 2300 -d /home/mani -s /bin/bash -c "student" mani;echo "mani"|passwd --stdin mani
+useradd -u 2313 -g 2300 -d /home/phani -s /bin/bash -c "student" phani;echo "phani"|passwd --stdin phani
+useradd -u 2314 -g 2300 -d /home/yella -s /bin/bash -c "student" yella;echo "yella"|passwd --stdin yella
+useradd -u 2315 -g 2300 -d /home/ana -s /bin/bash -c "student" ana;echo "ana"|passwd --stdin ana
+useradd -u 2316 -g 2300 -d /home/ajay -s /bin/bash -c "student" ajay;echo "ajay"|passwd --stdin ajay
+useradd -u 2317 -g 2300 -d /home/durga -s /bin/bash -c "student" durga;echo "durga"|passwd --stdin durga
+useradd -u 2318 -g 2300 -d /home/venky -s /bin/bash -c "student" venky;echo "venky"|passwd --stdin venky
+useradd -u 2319 -g 2300 -d /home/mahi -s /bin/bash -c "student" mahi;echo "mahi"|passwd --stdin mahi
+useradd -u 2320 -g 2300 -d /home/nilu -s /bin/bash -c "student" nilu;echo "nilu"|passwd --stdin nilu
+useradd -u 2321 -g 2300 -d /home/pavan -s /bin/bash -c "student" pavan;echo "pavan"|passwd --stdin pavan
+useradd -u 2322 -g 2300 -d /home/suri -s /bin/bash -c "student" suri;echo "suri"|passwd --stdin suri
+useradd -u 2323 -g 2300 -d /home/anil -s /bin/bash -c "student" anil;echo "anil"|passwd --stdin anil
+useradd -u 2324 -g 2300 -d /home/max -s /bin/bash -c "student" max;echo "max"|passwd --stdin max
+useradd -u 2325 -g 2300 -d /home/mouni -s /bin/bash -c "student" mouni;echo "mouni"|passwd --stdin mouni
+useradd -u 2326 -g 2300 -d /home/abhi -s /bin/bash -c "student" abhi;echo "abhi"|passwd --stdin abhi
+useradd -u 2327 -g 2300 -d /home/nari -s /bin/bash -c "student" nari;echo "nari"|passwd --stdin nari
+useradd -u 2328 -g 2300 -d /home/sangu -s /bin/bash -c "student" sangu;echo "sangu"|passwd --stdin sangu
+useradd -u 2329 -g 2300 -d /home/amar -s /bin/bash -c "student" amar;echo "amar"|passwd --stdin amar
+useradd -u 2330 -g 2300 -d /home/dhar -s /bin/bash -c "student" dhar;echo "dhar"|passwd --stdin dhar
+useradd -u 2331 -g 2300 -d /home/madhu -s /bin/bash -c "student" madhu;echo "madhu"|passwd --stdin madhu
+useradd -u 2332 -g 2300 -d /home/siva -s /bin/bash -c "student" siva;echo "siva"|passwd --stdin siva
+useradd -u 2333 -g 2300 -d /home/ardha -s /bin/bash -c "student" ardha;echo "ardha"|passwd --stdin ardha
+useradd -u 2334 -g 2300 -d /home/kuku -s /bin/bash -c "student" kuku;echo "kuku"|passwd --stdin kuku
+useradd -u 2335 -g 2300 -d /home/sri -s /bin/bash -c "student" sri;echo "sri"|passwd --stdin sri
+useradd -u 2336 -g 2300 -d /home/vamsi -s /bin/bash -c "student" vamsi;echo "vamsi"|passwd --stdin vamsi
+useradd -u 2337 -g 2300 -d /home/rakesh -s /bin/bash -c "student" rakesh;echo "rakesh"|passwd --stdin rakesh
+useradd -u 2338 -g 2300 -d /home/anand -s /bin/bash -c "student" anand;echo "anand"|passwd --stdin anand
+useradd -u 2339 -g 2300 -d /home/chitti -s /bin/bash -c "student" chitti;echo "chitti"|passwd --stdin chitti
+useradd -u 2340 -g 2300 -d /home/somu -s /bin/bash -c "student" somu;echo "somu"|passwd --stdin somu
+
+useradd -u 2314 -g 2300 -d /home/yella -s /bin/bash -c "student" yella;echo "yella"|passwd --stdin yella
