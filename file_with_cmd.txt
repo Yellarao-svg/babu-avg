@@ -1,0 +1,19 @@
+Playbook for command module
+
+case1:-
+---
+ - name: create file using linux cmds
+   hosts: vlab
+   tasks:
+    - name: new file in desired location
+	  command: touch /tmp/f2
+...
+case2:-
+---
+ - name: create file using linux cmds
+   hosts: vlab
+   tasks:
+    - name: new file in desired location
+	  command: 
+	  touch: /tmp/f2
+...

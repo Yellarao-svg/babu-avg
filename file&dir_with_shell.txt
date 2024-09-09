@@ -1,0 +1,21 @@
+Playbook for shell module
+
+case1:-
+---
+ - name: create file & dir using linux cmds
+   hosts: vlab
+   tasks:
+    - name: new file in desired location
+	  shell: touch /tmp/f2; mkdir /tmp/d1
+...
+
+case2:-
+---
+ - name: create file & dir using linux cmds
+   hosts: vlab
+   tasks:
+    - name: new file in desired location
+	  shell: 
+	  touch: /tmp/f2
+	  mkdir: /tmp/d1
+...

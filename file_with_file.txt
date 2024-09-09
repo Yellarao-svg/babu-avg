@@ -1,0 +1,23 @@
+Playbook for file module
+
+case1:-
+---
+ - name: create file with all required attributes
+   hosts: vlab
+   tasks:
+    - name: new file in desired location
+	  file: dest=/tmp/f1 state=touch owner=yella group=yella
+...
+
+case2:-
+---
+ - name: create file with all required attributes
+   hosts: vlab
+   tasks:
+    - name: new file in desired location
+	  file: 
+	  dest: /tmp/f1
+	  state: touch
+	  owner: yella
+	  group: yella
+...
